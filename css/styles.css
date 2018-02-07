@@ -120,3 +120,40 @@ html, body {
     transition: transform 0.4s, opacity 0.1s; }
 
 
+@media only screen and (max-width: 1250px) {
+  .resources li {
+    width: 33.333%; }
+    .resources li .resource_info {
+      padding: 3em 12%; } }
+      
+@media only screen and (max-width: 900px) {
+  .banner h1 {
+    padding: 1.5em 0;
+    font-size: 3.5em; }
+
+  .nav a, .nav label {
+    font-size: 1.1em;
+    margin-right: 1em; }
+  .nav label {
+    margin-right: 0;
+    border-right: 1px solid #4ad7b1;
+    padding-right: 1.5em; }
+  .nav input[type="search"] {
+    padding: 1.5em;
+    font-size: 1.1em; }
+
+  .resources li {
+    width: 50%; }
+    .resources li .resource_info {
+      padding: 3.5em 15%; } }
+
+@media only screen and (max-width: 600px) {
+  .banner h1 {
+    padding: 1.5em 0;
+    font-size: 2.5em; }
+
+  .nav a {
+    display: none; }
+
+  .resources li {
+    width: 100%; } }
