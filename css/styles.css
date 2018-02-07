@@ -12,7 +12,7 @@ html, body {
   margin: 0 auto; }
 
 .banner {
-  background: #30313d url(../images/bg-pattern.svg);
+  background: #30313d url(../images/background.svg);
   background-repeat: repeat; }
 
   .banner h1 {
@@ -68,7 +68,7 @@ html, body {
     .resources li img {
       width: 100%;
       max-width: 100%; }
-      
+
   .resources .resource_info {
     background: rgba(74, 215, 177, 0.85);
     padding: 2.5em 10%;
