@@ -140,6 +140,7 @@ html, body {
     width: 50%; }
     .resources li .resource_info {
       padding: 3.5em 15%; } }
+      
 @media only screen and (max-width: 600px) {
   .banner h1 {
     padding: 1.5em 0;
